@@ -7,5 +7,6 @@ while (oyundurumu == 1):
     oyundurumu = int(input('Oyuna devam etmek istiyormusun (1 : 0) = '))
     if oyundurumu == 0:
         print("Tekrar gorusmek uzere dostum kendine iyi bak.")
+        break
     else :
         print('Zar atiliyor.')
