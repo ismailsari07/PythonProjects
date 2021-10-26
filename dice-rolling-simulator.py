@@ -1,6 +1,6 @@
 import random
 print('*****Zar Atma Oyununa Hosgeldiniz*****')
-oyundurumu = 1;
+oyundurumu = 1
 
 while (oyundurumu == 1):
     zarNumber = random.randint(1,6)
