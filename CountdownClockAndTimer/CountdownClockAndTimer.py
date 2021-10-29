@@ -27,7 +27,7 @@ while t:
     minutes = t // 60
     second = t % 60
     timer = "{:02d}:{:02d}".format(minutes, second)
-    print("Kalan sure: ",timer)
+    print("Kalan sure: ",timer,end="\r")
     time.sleep(1)
     t -= 1
 notificationn("Zaman Doldu","Belirledigin sure bitti. Hoscakal !!!")
